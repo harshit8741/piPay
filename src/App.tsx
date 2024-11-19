@@ -11,8 +11,8 @@ const App = () => (
     <MainLayout>
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/dashboard" element={<DashboardPage />} />
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/" element={<DashboardPage />} />
           {/* Add more routes as needed */}
         </Routes>
       </Suspense>
